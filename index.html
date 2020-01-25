@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - CV_pdf</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.12.0/css/v4-shims.css'>
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.12.0/css/all.css'>
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/paper-css/0.3.0/paper.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/paper-css/0.4.1/paper.css'>
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Dosis&amp;display=swap'>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<link rel="stylesheet" href="dist/paper.css">
+<html>
+<head>
+  <style>
+    page[size="A4"] {  
+  width: 21cm;
+  height: 29.7cm; 
+}
+  page {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+}
+    }
+    
+    
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(204,204,204); 
+}
+
+/* Style the header */
+.header {
+  background-color: #009999;
+  padding: 20px;
+  margin: -15px;
+  text-align: center;
+  color: white;
+}
+    .header h1 {
+      font-family: 'Dosis', sans-serif;
+      font-weight: 600;
+      font-size: 46pt;
+    }
+    .header p {
+      text-transform: uppercase;
+      font-size: 14pt;
+    }
+/*columns style*/    
+.column {
+  float: left;
+  padding: 20px;
+}
+
+/* Left column */
+.column.side {
+  width: 35%;
+  background-color: #E0E0E0;
+  background-size: cover;
+  height: 1310px;
+}
+.column.side h2 {
+  padding-top: 70px;
+  padding-left: 30px;
+  text-transform: uppercase;
+  font-size: 16pt;
+  color: #404040;
+}
+.column.side ul li {
+  margin: 5px;
+    }
+.column.side ul {
+  padding-left: 5px;  
+ }  
+ 
+.column.side li {
+  list-style: none;
+  color: #606060;
+  
+  }
+ .column.side span, i {
+   font-weight: bold;
+   color: #009999;
+   font-size: 13pt;
+   padding: 5px;
+    }
+    .column.side a {
+    color: #606060; 
+    }
+/* Right column */
+.column.middle {
+  width: 65%;
+  background-color: white;
+  height: 1310px;
+}
+ .column.middle h2 {
+  text-align: center;   
+  }
+  .column.middle h3 {
+  text-transform: uppercase;
+  font-size: 12pt;
+  font-weight: bold;
+  color: #009999;
+  text-align: center;
+  }
+  .column.middle h5 {
+   color: #606060;
+   font-weight: bolder;
+   font-size: 13pt;
+  }
+   .column.middle h6 {
+   color: #606060;
+   font-weight: bolder;
+   font-size: 11pt;
+    }
+  .column.middle h6, p, a {
+   padding-left: 10px;
+  }
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 400px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<page size="A4">
+<body>
+<div class="header">
+  <h1>Nataliia Prokopenko</h1>
+  <p>Front-end developer</p>
+</div>
+
+<div class="row">
+  <div class="column side">
+    <h2>Contact</h2>
+    <ul>
+    <li><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> +48 698 906 659</li>
+    <li><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> nataliiaprokopenko@yahoo.com</li>
+      <li><i class="fa fa-linkedin"></i><a href="https://www.linkedin.com/in/nataliia-prokopenko-5440a8166/" target="_blank"> LinkedIn</a></li>
+  </ul></br>
+    <h2>Education</h2>
+  <ul>
+    <li><span class="glyphicon glyphicon-education"></span> Bachelor’s Degree | Finance | Interregional Academy of Personnel | Kyiv, Ukraine </li>
+  <li><span class="glyphicon glyphicon-education"></span> IT Step | Lviv, Ukraine </li>
+  </ul></br>
+  <h2>Technical Skills</h2>
+  <ul>
+    <li><span class="glyphicon glyphicon-cog"></span> HTML | CSS | JavaScript | jQuery | Bootstrap </li>
+    <li><span class="glyphicon glyphicon-cog"></span> Github | Visual Sdudio | Node.js | Webpack | Bugzilla </li>
+    <li><span class="glyphicon glyphicon-cog"></span> Microsoft Products | Office 360 |  Confluence | Jira  </li>
+    <li><span class="glyphicon glyphicon-cog"></span> Linux | Windows | Apple Macintosh<li>
+  </ul>
+  </div>
+  
+  <div class="column middle">
+    <h2>Summary</h2>
+    <h3> Front-End Developer | HTML | CSS | JavaScript | Bootstrap | jQuery | Github </h3>
+    <p> Attentive to details Front-End Engineer with the main area of expertise in Front-End Developmet: HTML, CSS, JavaScript, Bootstrap, jQuery, Github. Who possesses theoretical and practical knowledge in software development. Who was involved in different types of SDLC methodologies: Agile, SCRUM. Who has skills to analyze requirements for development. Also, has knowledge of software testing types: Functional, Regression, Smoke, Localization and etc. Has strong problem solving skills. Has high level of negotiation skills. English - IELTS 5.0. Cisco certification – IT Essentials. Lviv IT School - Basics of Software Testing. My projects on<a style="color: #009999;" href="https://nataliiaprokopenko87.github.io/my-work/" target="_blank">Github</a>.</p>
+    
+    <h2>Work experiance</h2>
+    <h5>“FreeCodeCamp” 01.2019 – to date </h5>
+    <p>Study and practice programming.</p>
+    </br>
+    <h5>“SoloLearn”, 04.2019 – 09.2019</h5>
+    <p> Certifications: “HTML, CSS Fundamentals courses”, “JavaScript, jQuery Tutorial courses”.</p>
+    </br>
+    <h5>“Lviv IT School”, 09.2018 – 04.2019</h5>
+    <p>Certification: "Basics of Web UI development".</p>
+    </br>
+    <h5>“Lviv IT School”, 01.2018 – 05.2018</h5>
+    <p>Certification: "Basics of Quality Assurance".</p>
+    </br>
+    <h5>“Cisco Networking Academy”,  01.2018</h5>
+    <p>Certification: "IT Essentials".</p>
+    </br>
+    <h5>“IT Academy Step”, 09.2017 -  01.2018, Lviv, Ukraine</h5>
+    <p>Programming.</p>
+    </br>
+    <h5>“Alfa-Bank”, 11.2007 – 09.2011, Kyiv, Ukraine</h5>
+    <h6>Quality Assurance Engineer/Risk Manager</h6>
+    <p>Collaboration with a Product Owner, a Business Analyst to clarify requirements. Preparing test plans, test scenario, test cases. Test execution. Test results. Exit criteria. Functional testing. UAT.</p>
+    <p>Project: Implementation of NBSM software.</p>
+    <a style="color: #009999;" href="https://alfabank.ua/" target="_blank">alfabank.ua</a>
+    </br>
+    </br>
+    <h5>“Delta Bank”, 06.2006 – 11.2007, Kyiv, Ukraine</h5>
+    <h6>Tester/Product owner</h6>
+    <p>Collaboration with end users. UAT. Test cases creating. Functional testing. Bug reports. Test execution. Exit criteria.</p> 
+    <p>Project: decision making system.</p>
+    <a style="color: #009999;" href="http://deltabank.com.ua/" target="_blank">deltabank.com.ua</a>
+  </div>
+ 
+</body>
+</page>
+</html>
+<!-- partial -->
+  <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js'></script>
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+</body>
+</html>
